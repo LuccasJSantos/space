@@ -1,0 +1,22 @@
+////////////////////////////////////////////////////////////////
+///		{MGC} : GENERATED SOURCE * Do NOT edit!
+////////////////////////////////////////////////////////////////
+
+#include "TorricelliDisplacement__CPP.h"
+
+void UTorricelliDisplacement__CPP::Execute(
+	UObject* Context,
+	float vi,
+	float vf,
+	float acc,
+	float &result
+) {
+	result = abs((pow(vf, 2) - pow(vi, 2)) / (2 * acc));
+}
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////
